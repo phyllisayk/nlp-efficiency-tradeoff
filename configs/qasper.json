@@ -1,0 +1,7 @@
+{    
+    "dataset_name": "tau/scrolls",
+    "dataset_config_name": "qasper",
+    "max_output_length": 128,
+    "num_train_epochs": 50,
+    "metric_for_best_model": "f1"
+}

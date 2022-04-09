@@ -1,0 +1,9 @@
+datasets==1.16.1
+nltk==3.6.5
+psutil==5.9.0
+rouge-score==0.0.4
+sentencepiece==0.1.95
+tokenizers==0.10.1 
+transformers==4.11.0
+wandb==0.12.9
+wget==3.2

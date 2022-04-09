@@ -1,0 +1,23 @@
+{
+    "n_gpu": 1,
+    "eval_accumulation_steps": 10,
+    "gradient_accumulation_steps": 1, 
+    "learning_rate": 2e-5,
+    "adam_epsilon": 1e-6,
+    "adam_beta1": 0.9,
+    "adam_beta2": 0.98,
+    "weight_decay": 0.001,
+    "save_total_limit": 2,
+    "preprocessing_num_workers": 1,
+    "group_by_length": true,
+    "gradient_checkpointing": false,
+    "load_best_model_at_end": true,
+    "lr_scheduler": "linear",
+    "warmup_ratio": 0.1,
+    "results_dir": "./results/", 
+    "evaluation_strategy": "steps",
+    "overwrite_output_dir": false,
+    "do_train": false, 
+    "do_eval": true,
+    "do_predict": false
+}

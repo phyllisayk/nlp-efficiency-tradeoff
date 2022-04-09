@@ -1,0 +1,8 @@
+{    
+    "dataset_name": "tau/scrolls",
+    "dataset_config_name": "contract_nli",
+    "num_train_epochs": 50,
+    "max_output_length": 128,
+    "num_early_stopping": 20,
+    "metric_for_best_model": "exact_match"
+}

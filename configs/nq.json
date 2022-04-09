@@ -1,0 +1,11 @@
+{
+    "train_file": "./datasets/nq-train.json",
+    "validation_file": "./datasets/nq-dev.json",
+    "test_file": "./datasets/nq-test.json",
+    "input_field": "question",
+    "output_field": "answers",
+    "context_field": "ctxs",
+    "num_train_epochs": 10,
+    "eval_accumulation_steps": 120,
+    "dataset_is_qa": true
+}
